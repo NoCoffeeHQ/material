@@ -132,7 +132,7 @@
 
   .card-body + &,
   .card-header + & {
-    &:not[class*='border-'] {
+    &:not([class*='border-']) {
       padding-top: 0;
     }
 
